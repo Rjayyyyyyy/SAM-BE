@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 21, 2024 at 08:31 AM
+-- Generation Time: Dec 21, 2024 at 10:57 AM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- PHP Version: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -40,18 +40,18 @@ CREATE TABLE `islandcontents` (
 --
 
 INSERT INTO `islandcontents` (`islandContentID`, `islandOfPersonalityID`, `image`, `content`, `color`) VALUES
-(1, 1, 'image/family.png', 'Spending quality time during family vacations.', NULL),
-(2, 1, 'image/family.png', 'Celebrating special occasions with loved ones.', NULL),
-(3, 1, 'image/family.png', 'Sunday lunch gatherings at grandma’s house.', NULL),
-(4, 2, 'image/friends.png', 'Laughing together during late-night talks.', NULL),
-(5, 2, NULL, 'Exploring new places with my best friends.', NULL),
-(6, 2, NULL, 'Making unforgettable memories at school.', NULL),
-(7, 3, NULL, 'Reaching the summit after a challenging hike.', NULL),
-(8, 3, NULL, 'Sleeping under the stars during a camping trip.', NULL),
-(9, 3, NULL, 'Driving along scenic routes on a road trip', NULL),
-(10, 4, NULL, 'Winning my first basketball game', NULL),
-(11, 4, NULL, 'Training hard for a marathon', NULL),
-(12, 4, NULL, 'Playing basketball with the team every weekend', NULL);
+(1, 1, 'image/family1.jpg', 'Spending quality time during family vacations.', NULL),
+(2, 1, 'image/family2.jpg', 'Celebrating special occasions with loved ones.', NULL),
+(3, 1, 'image/family3.jpg', 'Sunday lunch gatherings at grandma’s house.', NULL),
+(4, 2, 'image/friends1.jpg', 'Laughing together during late-night talks.', NULL),
+(5, 2, 'image/friends2.jpg', 'Exploring new places with my best friends.', NULL),
+(6, 2, 'image/friends3.jpg', 'Making unforgettable memories at school.', NULL),
+(7, 3, 'image/adventure1.jpg', 'Reaching the summit after a challenging hike.', NULL),
+(8, 3, 'image/adventure2.jpg', 'Sleeping under the stars during a camping trip.', NULL),
+(9, 3, 'image/adventure3.jpg', 'Driving along scenic routes on a road trip', NULL),
+(10, 4, 'image/sports1.jpg', 'Winning my first basketball game', NULL),
+(11, 4, 'image/sports2.jpg', 'Training hard for a marathon', NULL),
+(12, 4, 'image/sports3.jpg', 'Playing basketball with the team every weekend', NULL);
 
 -- --------------------------------------------------------
 
